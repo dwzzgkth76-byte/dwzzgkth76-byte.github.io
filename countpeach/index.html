@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Countpeach: Tally Counter for iPhone and iPad</title>
+<meta name="description" content="Countpeach is a calm tally counter for anything you count, with a big tap area, undo and widgets. For iPhone and iPad.">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<!-- No apple-itunes-app meta until the App Store app ID exists. -->
+<style>
+:root{--canvas:#FAF6F1;--surface:#FFFFFF;--ink:#1F1B18;--ink2:#6B635C;--accent:#A84A23;--fill:#EE7A47;--line:#E9E1D8;--mark:#FFE3D3}
+@media (prefers-color-scheme:dark){:root{--canvas:#121114;--surface:#1D1B1F;--ink:#F6F1EB;--ink2:#A9A19A;--accent:#FFAF87;--fill:#EE7A47;--line:#2E2A2F;--mark:#4A2A1C}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--canvas);color:var(--ink);font:17px/1.6 ui-rounded,"SF Pro Rounded",-apple-system,BlinkMacSystemFont,"Nunito","Segoe UI",system-ui,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:28px 20px 64px}
+header{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+header a{display:flex;align-items:center;gap:12px;color:var(--ink);text-decoration:none;font-weight:800;font-size:20px}
+nav{display:flex;gap:18px;margin:0 0 28px;font-weight:700;font-size:15px}
+nav a{color:var(--ink2);text-decoration:none}nav a[aria-current]{color:var(--accent)}
+h1{font-size:34px;line-height:1.15;font-weight:900;margin:8px 0 12px;letter-spacing:-.01em}
+h2{font-size:21px;font-weight:800;margin:36px 0 8px;padding-top:20px;border-top:1px solid var(--line)}
+p,li{color:var(--ink)}a{color:var(--accent);text-underline-offset:2px}
+ul{padding-left:22px}li{margin:6px 0}strong{font-weight:800}
+em{font-style:normal;font-weight:700;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:0 5px}
+mark{background:var(--mark);color:var(--ink);border-radius:4px;padding:0 3px}
+.draft{background:var(--fill);color:#1F1B18;font-weight:800;text-align:center;padding:8px 12px;font-size:14px}
+.icon{border-radius:22.37%;display:block}
+header img.icon{width:36px;height:36px}
+.hero{text-align:center;padding:40px 0 8px}
+.hero img.icon{width:128px;height:128px;margin:0 auto 20px;box-shadow:0 10px 30px rgba(31,27,24,.18)}
+.hero h1{font-size:44px;margin:0 0 10px}
+.lede{font-size:20px;line-height:1.5;max-width:540px;margin:0 auto 10px}
+.sub{color:var(--ink2);font-size:16px;max-width:520px;margin:0 auto}
+.badge-ph{display:inline-flex;align-items:center;justify-content:center;width:200px;height:60px;margin:28px auto 8px;border:2px dashed var(--ink2);border-radius:12px;color:var(--ink2);font-size:13px;font-weight:800;line-height:1.25;padding:6px 10px;text-align:center}
+.links{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:24px 0 0}
+.links a{display:inline-block;padding:10px 18px;border-radius:999px;background:var(--surface);border:1px solid var(--line);color:var(--ink);font-weight:800;text-decoration:none}
+.links a:hover{border-color:var(--accent);color:var(--accent)}
+footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);color:var(--ink2);font-size:14px}
+</style></head><body>
+
+<div class="wrap">
+<main class="hero">
+<img class="icon" src="assets/icon-256.png" alt="Countpeach app icon" width="128" height="128">
+<h1>Countpeach</h1>
+<p class="lede">A calm tally counter for anything you count, with a big tap area, undo for every mistake and every tap saved the moment you make it.</p>
+<p class="sub">For iPhone and iPad. Free with small banner ads that never appear while you count. Countpeach Pro is an optional one-time purchase that removes ads and adds interactive Home Screen and Lock Screen widgets, unlimited counters, CSV export and more.</p>
+<div class="badge-ph" role="note">Coming soon<br>to the App Store</div>
+<nav class="links" aria-label="Countpeach pages"><a href="./support/">Support</a><a href="./privacy/">Privacy Policy</a></nav>
+</main>
+<footer>Countpeach · Atul Das, trading as Peach &amp; Rocket Studio · Doha, Qatar · <a href="mailto:atuldasofficial@gmail.com">atuldasofficial@gmail.com</a></footer>
+</div></body></html>
